@@ -11,9 +11,6 @@ LABEL maintainer="Marcel van Beurden <mvanbeurden@cyclomedia.com>"
 # Also see .dockerignore file
 ADD /src /app
 
-# Get pip to download and install requirements:
-RUN pip install -r /imageprocessing/requirements.txt
-
 # Expose ports
 EXPOSE 22
 
