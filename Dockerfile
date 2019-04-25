@@ -3,7 +3,7 @@
 ############################################################
 
 # 18.04 LTS (bionic)
-FROM ubuntu:bionic
+FROM dwecmprcdockerregistry-cyclo.azurecr.io/baseimages/python:latest
 
 # File Author / Maintainer
 LABEL maintainer="Marcel van Beurden <mvanbeurden@cyclomedia.com>"
